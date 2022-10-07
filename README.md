@@ -50,4 +50,6 @@ C++
   
 5. MFU + LRU:與上述 MFU 方法同理，不過相同則選擇最久不被使 用的頁面，使得在 input2 可以看出此方法搭配 LRU 為更好的方 法，Page Fault、Page Replaces 次數大幅下降。
   
-* 畢雷笛反例(Belady’s Anomaly):為少數特例，在 FIFO 的置換方法下，增加頁 框數，反而造成更多的 Page Fault、Page Replaces。將記憶體容量增加以增加分 頁可用欄位的時候，應該會減少分頁錯誤的次數;可是有時因為可用欄位的增 加而降低了 CPU 的使用率，OS 因而加入了更多分頁，導致可用欄位相對不 足，分頁錯誤便沒有減少。這種違反一般趨勢的現象，即畢雷笛反例。這次作 業的 input1 就是畢雷笛反例，當我增加 Page Frames=4 時，Page Fault = 10 相 比於 Page Frames=3 時增加了，可以看出增加頁框數並不一定能夠減少 Page Fault。
+* 畢雷笛反例(Belady’s Anomaly):
+  
+  為少數特例，在 FIFO 的置換方法下，增加頁 框數，反而造成更多的 Page Fault、Page Replaces。將記憶體容量增加以增加分 頁可用欄位的時候，應該會減少分頁錯誤的次數;可是有時因為可用欄位的增 加而降低了 CPU 的使用率，OS 因而加入了更多分頁，導致可用欄位相對不 足，分頁錯誤便沒有減少。這種違反一般趨勢的現象，即畢雷笛反例。這次作 業的 input1 就是畢雷笛反例，當我增加 Page Frames=4 時，Page Fault = 10 相 比於 Page Frames=3 時增加了，可以看出增加頁框數並不一定能夠減少 Page Fault。
