@@ -9,6 +9,8 @@ C++
 # 實作方法與流程
 
 # 流程:
+<img width="414" alt="截圖 2022-10-07 下午6 39 57" src="https://user-images.githubusercontent.com/95215851/194535225-b89629c1-e08a-4e72-a5b2-d94f9002a304.png">
+
 1. 根據使用者的檔名先去判斷檔案是否存在，若不存在則再輸入一次， 反之則進行下一步驟。
 2. 成功開啟檔案後，讀取檔案第一行的數字，分別紀錄為全域變數的處 理方法及 page_frame。
 3. 再依序讀入所需資料且存入 vector<int> page_Reference;
