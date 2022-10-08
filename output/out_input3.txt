@@ -1,0 +1,114 @@
+--------------FIFO-----------------------
+9	9	F
+8	89	F
+6	689	F
+7	768	F
+8	768
+4	476	F
+8	847	F
+7	847
+0	084	F
+4	084
+8	084
+4	084
+7	708	F
+6	670	F
+7	670
+8	867	F
+6	867
+9	986	F
+8	986
+6	986
+Page Fault = 11  Page Replaces = 8  Page Frames = 3
+
+--------------LRU-----------------------
+9	9	F
+8	89	F
+6	689	F
+7	768	F
+8	876
+4	487	F
+8	847
+7	784
+0	078	F
+4	407	F
+8	840	F
+4	480
+7	748	F
+6	674	F
+7	764
+8	876	F
+6	687
+9	968	F
+8	896
+6	689
+Page Fault = 12  Page Replaces = 9  Page Frames = 3
+
+--------------Least Frequently Used LRU Page Replacement-----------------------
+9	9	F
+8	89	F
+6	689	F
+7	768	F
+8	876
+4	487	F
+8	847
+7	784
+0	078	F
+4	478	F
+8	847
+4	487
+7	748
+6	678	F
+7	768
+8	876
+6	687
+9	987	F
+8	897
+6	687	F
+Page Fault = 10  Page Replaces = 7  Page Frames = 3
+
+--------------Most Frequently Used Page Replacement -----------------------
+9	9	F
+8	89	F
+6	689	F
+7	768	F
+8	768
+4	476	F
+8	847	F
+7	847
+0	084	F
+4	084
+8	084
+4	084
+7	708	F
+6	670	F
+7	670
+8	860	F
+6	860
+9	980	F
+8	980
+6	690	F
+Page Fault = 12  Page Replaces = 9  Page Frames = 3
+
+--------------Most Frequently Used LRU Page Replacement -----------------------
+9	9	F
+8	89	F
+6	689	F
+7	768	F
+8	876
+4	476	F
+8	847	F
+7	784
+0	084	F
+4	408
+8	840
+4	480
+7	780	F
+6	670	F
+7	760
+8	860	F
+6	680
+9	980	F
+8	890
+6	690	F
+Page Fault = 12  Page Replaces = 9  Page Frames = 3
